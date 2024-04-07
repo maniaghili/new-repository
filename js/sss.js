@@ -14,15 +14,19 @@ console.log(wik);
 maniiii={
     name:'mani',
     age:19,
-    job:'developer'
+    job:'developer',
+    kir:'s'
 }
 
 
 maniiii = new Proxy(maniiii,{
 get: function(target,praa){
-return target[praa]
+ return target[praa]
+}
 }
 
-})
+)
 
-console.log(maniiii.name)
+
+
+console.log(maniiii.kir)
