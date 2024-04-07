@@ -30,3 +30,5 @@ get: function(target,praa){
 
 
 console.log(maniiii.kir)
+
+masterr
