@@ -30,3 +30,14 @@ get: function(target,praa){
 
 
 console.log(maniiii.kir)
+
+kiram
+
+
+to 
+in 
+zendegi
+
+sag 
+sag 
+let sag = ['asdasda','dasdas']
