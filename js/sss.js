@@ -41,3 +41,6 @@ zendegi
 sag 
 sag 
 let sag = ['asdasda','dasdas']
+
+
+jadid//////////////////////////////////////////////
