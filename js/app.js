@@ -176,13 +176,8 @@ scdsdcsdcsbfdb
 
 dwcwcdwc
 wdccw
-<<<<<<< HEAD
-sfsdf
-fggfg
-fgfg
-=======
 
->>>>>>> parent of 9b30992 (hh)
+
 
 
 
