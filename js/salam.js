@@ -1,9 +1,9 @@
 let qoer = document.querySelector('input')
 qoer.addEventListener('click', ()=>{  
-      fetch('https://randomuser.me/api/', {method:'post'})
+      fetch('https://randomuser.me/api/')
       .then((te)=>{
         return te.json()
-      }).then((kir)=>{console.log(kir)})
+      }).then((te)=>{console.log(te)})
 
 
 
