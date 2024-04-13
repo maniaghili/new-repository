@@ -27,4 +27,4 @@ class kerson extends person{
 }
 let kkk = new kerson('kir','jaa',77,'web')
 
-'sas'
+'sasss'
