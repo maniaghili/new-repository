@@ -19,7 +19,7 @@ class person{
 class kerson extends person{
     constructor(kir,name,age,job){
         super(name,age,job)
-        this.kir = kir
+       this.kir = kir
         console.log(kir,name,age,job)
     }
 
