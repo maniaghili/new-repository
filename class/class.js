@@ -41,6 +41,6 @@ let arr = [20,10,23,24,15,63]
 
 let arrr = arr.reduce((aval,dovo)=>{
      console.log(aval,dovo)
-       return 'salam'
+       return aval + dovo
     })
 console.log(arrr)
