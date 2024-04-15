@@ -1,4 +1,4 @@
-
+/*
 
 class person{
      
@@ -27,4 +27,20 @@ class kerson extends person{
 }
 let kkk = new kerson('kir','jaa',77,'web')
 
-'sasxsdssdsxxssss'
+'sasxsdssdcdsxxssss'
+
+
+let bat = document.querySelector('button')
+
+bat.addEventListener('click', ()=>{
+
+window.navigator.clipboard.readText().then((data)=>{console.log(data)})
+})
+*/
+let arr = [20,10,23,24,15,63]
+
+let arrr = arr.reduce((aval,dovo)=>{
+     console.log(aval,dovo)
+       return dovo + 1
+    })
+console.log(arrr)
