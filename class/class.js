@@ -48,7 +48,9 @@ console.log(arrr)//logggg
 class uzer extends HTMLElement{
 constructor(){
   super()
-  console.log('کاستوم المنت ساخته شد')
+  console.log('کاستوم المنت ساخته شد',this)
+  this.innerHTML = `<h1>saaalaaaammmm</h1>
+  <style>h1{color : red}</style>`
 }
 }
 
