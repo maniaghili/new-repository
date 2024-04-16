@@ -43,4 +43,4 @@ let arrr = arr.reduce((aval,dovo)=>{
      console.log(aval,dovo)
        return aval + dovo
     })
-console.log(arrr)//log
+console.log(arrr)//logg
