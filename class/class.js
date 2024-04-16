@@ -36,7 +36,7 @@ bat.addEventListener('click', ()=>{
 
 window.navigator.clipboard.readText().then((data)=>{console.log(data)})
 })
-*/
+
 let arr = [20,10,23,24,15,63]
 
 let arrr = arr.reduce((aval,dovo)=>{
@@ -44,3 +44,12 @@ let arrr = arr.reduce((aval,dovo)=>{
        return aval + dovo
     })
 console.log(arrr)//logggg
+*/
+class uzer extends HTMLElement{
+constructor(){
+  super()
+  console.log('کاستوم المنت ساخته شد')
+}
+}
+
+window.customElements.define('uzr-elem',uzer)
