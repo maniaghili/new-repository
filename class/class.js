@@ -45,13 +45,22 @@ let arrr = arr.reduce((aval,dovo)=>{
     })
 console.log(arrr)//logggg
 */
+let template = document.createElement('template')
+template.innerHTML = `
+<link rel="stylesheet" href="cla.css">
+<h1>temfani</h1>`
+
+
 class uzer extends HTMLElement{
 constructor(){
   super()
   console.log('کاستوم المنت ساخته شد',this)
-  this.innerHTML = `<h1>saaalaaaammmm</h1>
-  <style>h1{color : red}</style>`
+
+
+  this.attachShadow({mode:'open'})
+  this.shadowRoot.appendChild(template.content.cloneNode(true))
 }
 }
 
 window.customElements.define('uzr-elem',uzer)
+
