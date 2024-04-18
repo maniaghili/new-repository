@@ -48,7 +48,7 @@ registerForm.addEventListener('submit', event => {
     event.preventDefault()
 
     let newUser = {
-        userID: Math.floor(Math.random() * 9999),
+        userID: Math.floor(Math.random() * 99999),
         name: nameInput.value,
         password: passwordInput.value,
         email: emailInput.value,

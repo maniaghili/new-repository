@@ -42,10 +42,10 @@ let arr = [20,10,23,24,15,63]
 let arrr = arr.reduce((aval,dovo)=>{
      console.log(aval,dovo)
        return aval + dovo
-    })
+    })f
 console.log(arrr)//logggg
 */
-let template = document.createElement('template')
+/*let template = document.createElement('template')
 template.innerHTML = `
 <link rel="stylesheet" href="cla.css">
 <h1>temfani</h1>`
@@ -64,3 +64,13 @@ constructor(){
 
 window.customElements.define('uzr-elem',uzer)
 
+*/
+
+let mani = { name : 'ali', age : 24 , job : 'developer' }
+
+let pra = new Proxy(mani,{ 
+ get:function(tar , por){console.log('مرور شد')
+    return  por
+} 
+})
+console.log(pra.job);
