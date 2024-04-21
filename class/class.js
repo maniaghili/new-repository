@@ -1,4 +1,4 @@
-/*
+
 
 class person{
      
@@ -36,7 +36,7 @@ bat.addEventListener('click', ()=>{
 
 window.navigator.clipboard.readText().then((data)=>{console.log(data)})
 })
-*/
+
 let arr = [20,10,23,24,15,63]
 
 let arrr = arr.reduce((aval,dovo)=>{
@@ -67,7 +67,7 @@ window.customElements.define('uzr-elem',uzer)
 
 
 
-/*let mani = { name : 'ali', age : 24 , job : 'developer' }
+let mani = { name : 'ali', age : 24 , job : 'developer' }
 
 let pra = new Proxy(mani,{ 
  get:function(tar , por){console.log('مرور شد')
@@ -76,10 +76,10 @@ let pra = new Proxy(mani,{
 })
 console.log(pra.job);
 
-let mani = new Promise((dor,gal)=>{
+let mشani = new Promise((dor,gal)=>{
 
   let m = 2
   if(m=2){dor()}else{gal()}
 })
 mani.then(console.log('kkkkkk'))
-*/
+
