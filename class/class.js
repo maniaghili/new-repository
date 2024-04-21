@@ -45,7 +45,7 @@ let arrr = arr.reduce((aval,dovo)=>{
     })f
 console.log(arrr)//logggg
 */
-/*
+
 let template = document.createElement('template')
 template.innerHTML = `
 <link rel="stylesheet" href="cla.css">
