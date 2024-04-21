@@ -36,15 +36,15 @@ bat.addEventListener('click', ()=>{
 
 window.navigator.clipboard.readText().then((data)=>{console.log(data)})
 })
-
+*/
 let arr = [20,10,23,24,15,63]
 
 let arrr = arr.reduce((aval,dovo)=>{
      console.log(aval,dovo)
        return aval + dovo
-    })f
+    })
 console.log(arrr)//logggg
-*/
+
 
 let template = document.createElement('template')
 template.innerHTML = `
