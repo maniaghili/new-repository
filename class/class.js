@@ -1,5 +1,5 @@
 
-
+/*
 class person{
      
       constructor(name,age,job){
@@ -83,3 +83,12 @@ let mشani = new Promise((dor,gal)=>{
 })
 mani.then(console.log('kkkkkk'))
 
+*/
+
+let time = new Date()
+
+
+
+let fe = time.setTime(time.getDay() + 51)
+
+console.log(fe)
