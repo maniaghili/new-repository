@@ -6,7 +6,7 @@ const userLogin = (username, password) => {
                 password: password,
                 email: 'amin@gmail.com'
             })
-        }, 4000)
+        }, 1000)
     })
 
 }
@@ -19,7 +19,7 @@ const userCourses = (username) => {
                 { id: 21, title: 'Js Expert', price: 'Free' },
                 { id: 34, title: 'Redux Expert', price: 'Free' },
             ])
-        }, 3000)
+        }, 2000)
     })
 
 }
@@ -34,7 +34,7 @@ const mainCourseInfo = (courseTitle) => {
                 teacher: 'Saeedi rad',
                 student: 2291
             })
-        }, 2000)
+        }, 1000)
     })
 
 }
@@ -60,7 +60,7 @@ console.log('سایت برای کاربر لود شد')
     
 
 async function runUserCodes () {
-    let userInfos = await userLogin('amin_saeedi', 0101)
+    let userInfos = await userLogin('amin_saeedi', '0101')
     let userAllCOurses = await userCourses(userInfos.username)
     let mainInfos = await mainCourseInfo(userAllCOurses[1].title)
 
